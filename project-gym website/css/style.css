@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANISHQ FITNESS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+
+        height: 740px;
+        /* width: 1000px; */
+        background-size: cover;
+        background: url('img/bck.jpg');
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 90px 41px;
+        padding: 42px 53px;
+        border-radius: 19px;
+        width: 33%;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 32px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(144, 255, 255);
+
+    }
+
+    .left {
+
+        display: inline-block;
+        top: 20px;
+        position: absolute;
+        left: 34px;
+
+    }
+
+    .middle {
+        /* border: 2px solid rgb(10, 88, 255); */
+        display: block;
+        width: 46%;
+        margin: 11px auto;
+        top: 26px;
+    }
+
+    .right {
+        /* border: 2px solid pink; */
+        display: inline-block;
+        position: absolute;
+        right: 48px;
+        top: 34px;
+    }
+
+    .left img {
+        width: 139px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        margin: 1px 10px;
+        background-color: rgb(49, 49, 49);
+        padding: 0px 5px;
+        border-radius: 6px;
+        font-weight: bolder;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .btn:hover {
+
+        background-color: rgb(112, 112, 112);
+    }
+
+    .formgroup input {
+        display: block;
+        text-align: center;
+        padding: 1px 9px;
+        width: 66%;
+        border-radius: 7px;
+        border: 4px solid rgb(138 138 138);
+        margin: 7px auto;
+        font-size: 18px;
+        font-family: 'Baloo Bhai 2', cursive;
+        color: indigo;
+
+    }
+
+    .container h2 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        margin: 16px auto;
+        width: 210px;
+        padding: 12px;
+    }
+
+    .container BUTTON:hover {
+        background-color: rgba(86, 240, 112, 0.685);
+        color: black;
+    }
+
+    .formgroup ::placeholder {
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+    }
+
+    #rst {
+        display: block;
+        margin: 16px auto;
+        width: 210px;
+        padding: 6px;
+        background-color: rgb(49,49,49);
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 17px;
+        border-radius: 6px;
+    }
+    #rst:hover{
+        background-color: rgba(233, 64, 64, 0.685);
+        color: black;
+
+    }
+</style>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>TANISHQ FITNESS</div>
+
+
+
+
+
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">QUERIES</a></li>
+                <li><a href="#">FITNESS CALCULATOR</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">E-mail Us</button>
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h2>JOIN THE BEST GYM OF ALIGARH</h2>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Weight">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Height">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Gender">
+
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Contact No.">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Email-id">
+            </div>
+            <div>
+                <button class="btn">SUBMIT FORM</button>
+                <input type="reset" id="rst" value="RESET FORM">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
